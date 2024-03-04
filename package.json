@@ -1,0 +1,28 @@
+{
+  "name": "moultes-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Moultes AI is a util that can run Gemini, Copilot, ChatGPT.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc && tsc-alias",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "Miguel S.",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "uuid": "^9.0.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/uuid": "^9.0.8",
+    "@types/ws": "^8.5.10",
+    "tsc-alias": "^1.8.8",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
